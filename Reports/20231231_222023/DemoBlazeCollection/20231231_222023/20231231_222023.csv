@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DemoBlazeCollection,Chrome 120.0.0.0,,,31-12-2023 22:20:37,31-12-2023 22:21:12,34.936s,FAILED
+,,,,,,,
+Test Cases/Sign Up/01_signup_test,Chrome 120.0.0.0,,,31-12-2023 22:20:38,31-12-2023 22:20:38,0.332s,PASSED
+return null,Chrome 120.0.0.0,,,31-12-2023 22:20:38,31-12-2023 22:20:38,0.002s,PASSED
+,,,,,,,
+Test Cases/Log In/02_login_test,Chrome 120.0.0.0,,,31-12-2023 22:20:38,31-12-2023 22:20:48,9.906s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 22:20:38,31-12-2023 22:20:41,2.573s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 120.0.0.0,,,31-12-2023 22:20:41,31-12-2023 22:20:42,1.465s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/LogIn/a_Log in""))",Chrome 120.0.0.0,,,31-12-2023 22:20:42,31-12-2023 22:20:47,4.621s,PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/LogIn/inputloginusername""), ""testhamzah"")",Chrome 120.0.0.0,,,31-12-2023 22:20:47,31-12-2023 22:20:47,0.381s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_STORE/LogIn/inputloginpassword""), ""I9IMA4PskEQrLEpyBR1jvA=="")",Chrome 120.0.0.0,,,31-12-2023 22:20:47,31-12-2023 22:20:48,0.291s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/LogIn/button_Log in""))",Chrome 120.0.0.0,,,31-12-2023 22:20:48,31-12-2023 22:20:48,0.157s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 22:20:48,31-12-2023 22:20:48,0.207s,PASSED
+,,,,,,,
+Test Cases/Payment/03_payment_test,Chrome 120.0.0.0,,,31-12-2023 22:21:07,31-12-2023 22:21:12,5.221s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 22:21:07,31-12-2023 22:21:08,1.261s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 120.0.0.0,,,31-12-2023 22:21:08,31-12-2023 22:21:09,1.009s,PASSED
+"click(findTestObject(""Object Repository/Page_STORE/Payment/a_Log in""))",Chrome 120.0.0.0,,,31-12-2023 22:21:09,31-12-2023 22:21:12,2.327s,PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/Payment/inputloginusername""), ""testhamzah"")",Chrome 120.0.0.0,,,31-12-2023 22:21:12,31-12-2023 22:21:12,0.572s,FAILED
